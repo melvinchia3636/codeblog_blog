@@ -9,7 +9,7 @@ html, body {
     min-height: 100vh;
     background-color: #F6F5F7;
     max-width: 100vw;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 * {
@@ -17,7 +17,7 @@ html, body {
 }
 
 g {
-    stroke-width: 2px;
+    stroke-width: 3px;
 }
 
 .btn {
@@ -41,4 +41,8 @@ g {
 .strip {
     outline: 4px solid #343434;
     outline-offset: -1rem;
+}
+
+.delay-1\/2 {
+    animation-delay: .5s !important;
 }
